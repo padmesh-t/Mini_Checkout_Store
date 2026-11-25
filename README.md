@@ -49,16 +49,24 @@ Open your browser at: [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## 🎥 Professional Demo Video & Walkthrough
+## 🎥 Demonstration Videos & Walkthrough
 
-A high-definition (1280x720, 60fps) system demonstration video is pre-recorded and included in this repository:
-- **Video File:** [`demo/mini-checkout-demo.webm`](./demo/mini-checkout-demo.webm) (Open directly in Chrome, Edge, or VLC)
-- **Voiceover & Scene Script:** See [`DEMO_WALKTHROUGH.md`](./DEMO_WALKTHROUGH.md) for the timestamped narration script.
+Two demonstration videos are available in the repository:
 
-To re-record a fresh demo video at any time with automatic live browser automation and on-screen HUD banners:
-```bash
-npm run demo:record
-```
+1. **🎙️ Narrated Video with Voiceover:**
+   - **File:** [`demo/mini-checkout-demo-with-voice.mp4`](./demo/mini-checkout-demo-with-voice.mp4)
+   - **Format:** MP4 (H.264 / AAC, 1280×720) — Plays universally across any browser, phone, or media player.
+   - Features studio-quality synchronized voiceover explaining each feature, calculation, edge guard, and test.
+
+2. **📺 Subtitled HUD Video (Silent):**
+   - **File:** [`demo/mini-checkout-demo.webm`](./demo/mini-checkout-demo.webm)
+   - **Format:** WebM (VP9, 1280×720) — Features on-screen floating presentation HUD banners and animated element outlines.
+
+- **Voiceover & Scene Script:** See [`DEMO_WALKTHROUGH.md`](./DEMO_WALKTHROUGH.md) for the complete timestamped presentation script.
+
+### Re-recording or Regenerating Videos:
+- **Record new browser session video:** `npm run demo:record`
+- **Generate synchronized voiceover MP4:** `npm run demo:voice`
 
 ---
 

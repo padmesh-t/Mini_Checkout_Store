@@ -12,7 +12,8 @@
     "test:headed": "playwright test --headed",
     "test:ui": "playwright test --ui",
     "test:report": "playwright show-report",
-    "demo:record": "node scripts/record-demo.mjs"
+    "demo:record": "node scripts/record-demo.mjs",
+    "demo:voice": "python scripts/add_voiceover.py"
   },
   "dependencies": {
     "react": "^19.3.1",
